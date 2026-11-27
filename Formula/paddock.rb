@@ -7,7 +7,7 @@
 class Paddock < Formula
   desc "Watch and answer your coding agents from your phone"
   homepage "https://github.com/lntvan166/paddock"
-  version "0.17.9"
+  version "0.17.10"
   license "MIT"
 
   # paddock reads herdr's own socket protocol and does nothing without it, so
@@ -23,23 +23,23 @@ class Paddock < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/lntvan166/paddock/releases/download/v0.17.9/paddock-macos-aarch64"
-      sha256 "6fd82695881190b05e563b232c6b6306f985f93bd7cd427c6bcb18d2586421e3"
+      url "https://github.com/lntvan166/paddock/releases/download/v0.17.10/paddock-macos-aarch64"
+      sha256 "db30c4e8bb945b5bd21be05067091f50d8917e947b097723cd424baa9fc5aa35"
     end
     on_intel do
-      url "https://github.com/lntvan166/paddock/releases/download/v0.17.9/paddock-macos-x86_64"
-      sha256 "c3ebe6b9014cd4f053082b06442b5ba978dca7fa89645d3709e579ec7619aabf"
+      url "https://github.com/lntvan166/paddock/releases/download/v0.17.10/paddock-macos-x86_64"
+      sha256 "5abddeadac32220d1189ced825c5a2a60d0957a190cf4fa0bfca7801b58b7cf1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lntvan166/paddock/releases/download/v0.17.9/paddock-linux-aarch64"
-      sha256 "1609f670d54d20580dce2840b5fd3b017211b90b61267334d1f9db85e7649bd9"
+      url "https://github.com/lntvan166/paddock/releases/download/v0.17.10/paddock-linux-aarch64"
+      sha256 "9ce4408f3ad9fbf2c2cef55546f7e75384b963b9c445aad6e6f783d59255698b"
     end
     on_intel do
-      url "https://github.com/lntvan166/paddock/releases/download/v0.17.9/paddock-linux-x86_64"
-      sha256 "87a2d2428e21a166aa4cfd71b5bbf8c038b3f2934eb47b86ec4cda4f837556bc"
+      url "https://github.com/lntvan166/paddock/releases/download/v0.17.10/paddock-linux-x86_64"
+      sha256 "32d1de906f5c463a3a10bd1b1363e9fa5b88e35c1c7c1d7f0bd8efd8c41b7860"
     end
   end
 
